@@ -71,3 +71,38 @@ Ako nisi u folderu s .csproj datotekom, dotnet run neće raditi
 Ne briši .csproj datoteke
 
 Rješavaj zadatke samostalno
+
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+
+## CHECKLISTA ZA UČENIKE – PREDAJA ZADATKA (GitHub Classroom)
+
+### 1. Napisao sam rješenje
+- Kod je napisan u Program.cs
+- Rješenje je u točnom folderu zadatka (OCJENA_A, OCJENA_B, ...)
+- Program se pokreće bez greške (dotnet run)
+
+### 2. Provjerio sam promjene
+U terminalu: git status
+- Program.cs se prikazuje kao izmijenjen
+
+### 3. Dodao sam datoteku u staging
+U terminalu: git add Program.cs ili git add .
+- Datoteka je dodana u staging
+
+### 4. Napravio sam commit
+U terminalu: git commit -m "Rješenje zadatka"
+- Commit je uspješno napravljen
+- Poruka commita ima smisla
+
+### 5. Poslao sam rad na GitHub
+U terminalu: git push
+- Push je uspješno završen
+- Nema error poruka
+
+### 6. Završna provjera
+- Otvorio sam svoj repozitorij na GitHubu
+- Vidim svoje promjene u Program.cs
+- Vidim novi commit
+
+**VAŽNO: Ako NE napraviš git push, nastavnik NE vidi tvoj rad.**
